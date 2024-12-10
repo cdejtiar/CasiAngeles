@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'SFPro';
+    src: url('assets/fonts/SF-Pro-Display-Regular.otf');
+}
+
+@font-face{
+  font-family: 'DreamingOutloud Script';
+  src: url('assets/fonts/dreaming-outloud-script.otf');
+}
+
 /* Reseteo básico de márgenes y rellenos */
 * {
   margin: 0;
@@ -7,7 +17,7 @@
 
 /* Estilos generales */
 body {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "SFPro";
   background: linear-gradient(145deg, #2c3e50, #34495e);
   color: #fff;
   text-align: center;
@@ -19,6 +29,10 @@ body {
   align-items: center;
 }
 
+h1,h3{
+  font-family: "DreamingOutloud Script";
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -26,6 +40,7 @@ body {
   justify-content: center;
   position: absolute;
     z-index: 100;
+    padding: 1.1em;
 }
 
 .bg-animation {
@@ -1229,10 +1244,9 @@ body {
 /* Título principal */
 h1 {
   font-size: 4rem;
-  color: #9b59b6; /* Violeta brillante */
+  color: #8e44ad; /* Violeta brillante */
   font-weight: bold;
   margin-bottom: 20px;
-  text-transform: uppercase;
   letter-spacing: 5px;
   animation: slideInFromLeft 1s ease-out; /* Animación de deslizamiento */
 }
