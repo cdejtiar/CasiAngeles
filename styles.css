@@ -1317,6 +1317,10 @@ a:hover {
 
 /* Estilos para dispositivo móvil */
 @media (max-width: 600px) {
+  .container{
+    padding:1.5em;
+  }
+  
   h1 {
     font-size: 2.8rem;
   }
