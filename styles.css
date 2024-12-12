@@ -1243,7 +1243,7 @@ h1,h3{
 
 /* Título principal */
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   color: #8e44ad; /* Violeta brillante */
   font-weight: bold;
   margin-bottom: 20px;
@@ -1253,16 +1253,20 @@ h1 {
 
 /* Subtítulo */
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #ddd;
   font-style: italic;
   margin-bottom: 15px;
   animation: fadeIn 1.5s ease-in-out; /* Animación de desvanecimiento */
 }
 
+ #anotherh2{
+  margin-top:30px;
+}
+
 /* Título adicional */
 h3 {
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #aaa;
   margin-bottom: 10px;
   font-weight: normal;
@@ -1277,7 +1281,7 @@ a {
   text-decoration: none;
   padding: 20px 40px;
   border-radius: 50px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
   letter-spacing: 1px;
   transition: transform 0.3s ease, background-color 0.3s ease;
@@ -1329,6 +1333,21 @@ a:hover {
   }
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+  margin-top: 30px;
+}
+
+.volver{
+  margin-bottom: 30px;
+}
+
+.vol2{
+  padding:10em;
+}
+
 /* Estilos para dispositivo móvil */
 @media (max-width: 600px) {
   .container{
@@ -1336,11 +1355,11 @@ a:hover {
   }
   
   h1 {
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   a {
